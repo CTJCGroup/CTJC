@@ -104,6 +104,16 @@ section h2 {
   text-decoration: underline;
   color: #0077cc;
 }
+.brand-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.brand-card-link:hover .brand-card {
+  background-color: #f0f8ff;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 footer {
   text-align: center;
   padding: 40px 20px;
@@ -123,6 +133,13 @@ footer {
     <p>Holding Company untuk Brand Masa Depan: JIFT, Growing Agency, dan Robotika CTJC</p>
   </header>  <section id="brands">
     <h2>Brand di Bawah CTJC</h2>
+    <a href="https://denymaulan.github.io/jift_furniture_triya_jati" class="brand-card-link">
+      <div class="brand-card">
+        <img src="image/jift_logoctjc.png" alt="Logo JIFT">
+        <h3>JIFT</h3>
+        <p>Spesialis furniture berkualitas tinggi dari Jepara untuk ruangan premium.</p>
+      </div>
+    </a>
     <div class="brand-grid">
       <div class="brand-card">
         <img src="image/jift_logoctjc.png" alt="Logo JIFT" />
@@ -133,7 +150,7 @@ footer {
         <img src="image/growing_agency_logoctjc.png" alt="Logo Growing Agency" />
         <h3><a href="https://growingagency.github.io/agencyctjc/" target="_blank">👉🏼Growing Agency👈🏼</a></h3>
         <p>Digital creative agency untuk bisnis Gen-Z: web dev, desain, konten, marketing.</p>
-      </div>
+      </div> 
       <div class="brand-card">
         <img src="image/robot_ctjc.png" alt="Robot CTJC" />
         <h3>CTJC Robotics Coming Soon</h3>
